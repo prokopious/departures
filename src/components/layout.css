@@ -669,4 +669,8 @@ div {
   .wrapper {
     grid-template-columns: 20% 20% 20% 20% 20%;
   }
+
+  div {
+    font-size: 8px;
+  }
 }
