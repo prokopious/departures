@@ -688,3 +688,23 @@ div {
     padding: 10px 5px;
   }
 }
+
+.box7 {
+  background-color: rgb(255, 0, 0);
+  color: #fff;
+  border-radius: 2px;
+  padding: 10px 5px;
+  
+}
+.box8 {
+  background-color: rgba(0, 0, 255, 0.171);
+  color: #fff;
+  border-radius: 2px;
+  padding: 10px 5px;
+}
+.box9 {
+  background-color: rgba(255, 255, 255, 0.349);
+  color: #fff;
+  border-radius: 2px;
+  padding: 10px 5px;
+}
