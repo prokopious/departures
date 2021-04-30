@@ -6,7 +6,7 @@ html {
   font-family: "AG Schulbuch BQ";
   box-sizing: border-box;
   overflow-y: scroll;
-  background-image: url('https://images.pexels.com/photos/1056528/pexels-photo-1056528.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-image: url("https://images.pexels.com/photos/1056528/pexels-photo-1056528.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
 }
 body {
   margin: 0;
@@ -609,7 +609,14 @@ h1 {
   font-size: 30px;
 }
 
-h1, h2, h3, h4, h5, p, a, div {
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a,
+div {
   font-family: "AG Schulbuch BQ";
 }
 .box {
@@ -617,7 +624,6 @@ h1, h2, h3, h4, h5, p, a, div {
   color: #fff;
   border-radius: 5px;
   padding: 20px;
-
 }
 
 .box:nth-child(even) {
@@ -625,46 +631,42 @@ h1, h2, h3, h4, h5, p, a, div {
   color: rgb(255, 255, 255);
 }
 
+.wrapper {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: 30% 15% 25% 20% 10%;
+  margin-bottom: 5px;
+}
+
+div {
+  font-size: 12px;
+}
+
+.box2 {
+  background-color: rgb(25, 25, 160);
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.box2:nth-child(even) {
+  background-color: rgba(248, 248, 248, 0.767);
+  color: rgb(0, 0, 0);
+}
+
+.wrapper2 {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: 30% 15% 25% 20% 10%;
+  margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  .wrapper2 {
+    grid-template-columns: 20% 20% 20% 20% 20%;
+  }
+
   .wrapper {
- 
-    display: grid;
-    grid-gap: 5px;
-    grid-template-columns: 30% 15% 25% 20% 10%;
-    margin-bottom: 5px;
+    grid-template-columns: 20% 20% 20% 20% 20%;
   }
-
-  div {
-    font-size: 12px;
-  }
-
-  .box2 {
-    background-color: rgb(25, 25, 160);
-    color: #fff;
-    border-radius: 5px;
-    padding: 20px;
-  
-  }
-  
-  .box2:nth-child(even) {
-    background-color: rgba(248, 248, 248, 0.767);
-    color: rgb(0, 0, 0);
-  }
-  
-    .wrapper2 {
-    
-      display: grid;
-      grid-gap: 5px;
-      grid-template-columns: 30% 15% 25% 20% 10%;
-      margin-bottom: 5px;
-    }
-
-    @media only screen and (max-width: 600px) {
-      .wrapper2 {
-    
-        grid-template-columns: 100px 80px 80px 80px 40px;
-      }
-
-      .wrapper {
-        grid-template-columns: 100px 80px 80px 80px 40px;
-      }
-    }
+}
