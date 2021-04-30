@@ -1,9 +1,9 @@
-@import url(//db.onlinewebfonts.com/c/e4df5000f73a2cf99196b8585fd4f92f?family=AG+Schulbuch+BQ);
+@import url(//db.onlinewebfonts.com/c/53c0b5ca4d4f261f0b4bacba005484ef?family=AkzidenzGrotesk);
 
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  font-family: "AG Schulbuch BQ";
+  font-family: "AkzidenzGrotesk";
   box-sizing: border-box;
   overflow-y: scroll;
   background-image: url("https://images.pexels.com/photos/1056528/pexels-photo-1056528.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
@@ -13,7 +13,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: hsla(0, 0%, 0%, 0.8);
-  font-family: "AG Schulbuch BQ";
+  font-family: "AkzidenzGrotesk";
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -75,7 +75,7 @@ dfn {
   font-style: italic;
 }
 h1 {
-  font-family: "AG Schulbuch BQ";
+  font-family: "AkzidenzGrotesk";
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
@@ -87,7 +87,7 @@ h1 {
   color: inherit;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
+
   text-rendering: optimizeLegibility;
   font-size: 2.25rem;
   line-height: 1.1;
@@ -266,7 +266,7 @@ h2 {
   color: inherit;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
+
   text-rendering: optimizeLegibility;
   font-size: 1.62671rem;
   line-height: 1.1;
@@ -281,9 +281,8 @@ h3 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
+  font-family: "AkzidenzGrotesk";
+
   text-rendering: optimizeLegibility;
   font-size: 1.38316rem;
   line-height: 1.1;
@@ -298,9 +297,8 @@ h4 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
+  font-family: "AkzidenzGrotesk";
+
   text-rendering: optimizeLegibility;
   font-size: 1rem;
   line-height: 1.1;
@@ -315,9 +313,8 @@ h5 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
+  font-family: "AkzidenzGrotesk";
+
   text-rendering: optimizeLegibility;
   font-size: 0.85028rem;
   line-height: 1.1;
@@ -332,9 +329,8 @@ h6 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
+  font-family: "AkzidenzGrotesk";
+
   text-rendering: optimizeLegibility;
   font-size: 0.78405rem;
   line-height: 1.1;
@@ -601,7 +597,7 @@ pre tt:after {
 }
 
 * {
-  font-family: "AG Schulbuch BQ";
+  font-family: "AkzidenzGrotesk";
   color: white;
 }
 
@@ -617,7 +613,7 @@ h5,
 p,
 a,
 div {
-  font-family: "AG Schulbuch BQ";
+  font-family: "AkzidenzGrotesk";
 }
 .box {
   background-color: rgba(0, 0, 0, 0.151);
@@ -694,7 +690,6 @@ div {
   color: #fff;
   border-radius: 2px;
   padding: 10px 5px;
-  
 }
 .box8 {
   background-color: rgba(0, 0, 255, 0.171);
@@ -707,4 +702,13 @@ div {
   color: #fff;
   border-radius: 2px;
   padding: 10px 5px;
+}
+
+body {
+  font-family: "AkzidenzGrotesk";
+}
+
+* {
+  font-family: "AkzidenzGrotesk";
+  color: white;
 }

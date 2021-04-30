@@ -26,7 +26,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
-    <Helmet><link href="//db.onlinewebfonts.com/c/e4df5000f73a2cf99196b8585fd4f92f?family=AG+Schulbuch+BQ" rel="stylesheet" type="text/css"/></Helmet>
+    <Helmet><link href="//db.onlinewebfonts.com/c/53c0b5ca4d4f261f0b4bacba005484ef?family=AkzidenzGrotesk" rel="stylesheet" type="text/css"/></Helmet>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <div
         style={{
