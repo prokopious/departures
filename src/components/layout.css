@@ -622,8 +622,8 @@ div {
 .box {
   background-color: rgba(0, 0, 0, 0.151);
   color: #fff;
-  border-radius: 5px;
-  padding: 20px;
+  border-radius: 2px;
+  padding: 10px 5px;
 }
 
 .box:nth-child(even) {
@@ -645,8 +645,8 @@ div {
 .box2 {
   background-color: rgb(25, 25, 160);
   color: #fff;
-  border-radius: 5px;
-  padding: 20px;
+  border-radius: 2px;
+  padding: 10px 5px;
 }
 
 .box2:nth-child(even) {
@@ -676,5 +676,15 @@ div {
 
   h1 {
     font-size: 23px;
+  }
+
+  .box {
+    border-radius: 2px;
+    padding: 10px 5px;
+  }
+
+  .box2 {
+    border-radius: 2px;
+    padding: 10px 5px;
   }
 }
