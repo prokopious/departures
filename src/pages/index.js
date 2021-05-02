@@ -34,9 +34,9 @@ const IndexPage = () => {
             return (
               <div className="wrapper" key={item.id}>
                 <div class="box8">{item.airline}</div>
-                <div className="box8">{item.fnumber}</div>
+                <div className="box8">{item.title}</div>
                 <div className="box8">{item.ato}</div>
-                <div className="box8">{item.scheduled}</div>
+                <div className="box8">{item.description}</div>
                 <div className="box8">{item.gate}</div>
               </div>
             )
@@ -44,9 +44,9 @@ const IndexPage = () => {
             return (
               <div className="wrapper" key={item.id}>
                 <div class="box9">{item.airline}</div>
-                <div className="box9">{item.fnumber}</div>
+                <div className="box9">{item.title}</div>
                 <div className="box9">{item.ato}</div>
-                <div className="box9">{item.scheduled}</div>
+                <div className="box9">{item.description}</div>
                 <div className="box9">{item.gate}</div>
               </div>
             )
