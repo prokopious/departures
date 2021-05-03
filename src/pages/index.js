@@ -30,7 +30,9 @@ const IndexPage = () => {
           <div className="box7">Gate</div>
         </div>
         {data.map(item => {
-          if (item.id % 2 === 1) {
+          var a = data.indexOf(item);
+          if (a % 2 === 1) {
+          
             return (
               <div className="wrapper" key={item.id}>
                 <div class="box8">{item.airline}</div>
