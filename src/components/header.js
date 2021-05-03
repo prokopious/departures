@@ -10,6 +10,7 @@ const Header = ({ siteTitle }) => (
     }}
   >
     <div
+      id="h"
       style={{
         margin: `0 auto`,
         maxWidth: 960,
@@ -27,6 +28,9 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
+      <div id="admin">
+        <a href="https://nostalgic-galileo-cae3a5.netlify.app">Admin</a>
+      </div>
     </div>
   </header>
 )

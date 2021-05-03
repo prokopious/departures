@@ -665,7 +665,9 @@ div {
   .wrapper {
     grid-template-columns: 20% 20% 20% 20% 20%;
   }
-
+#admin {
+  padding-bottom: 30px;
+}
   div {
     font-size: 8px;
   }
@@ -711,4 +713,26 @@ body {
 * {
   font-family: "Helvetica";
   color: white;
+}
+
+#h {
+  display: flex;
+}
+
+#admin {
+padding-top: 5px;
+  margin-left: auto;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+
+  #admin {
+    padding-top: 5px;
+      margin-left: auto;
+      font-size: 15px;
+      text-decoration: none;
+    }
+
 }
